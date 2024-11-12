@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brownie Mix - Descubre Nuestros Deliciosos Brownies y Postres</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #6d4c41;
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            position: relative;
+        }
+        header h1 {
+            font-size: 3.5em;
+            margin: 0;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+        }
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        nav {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1em;
+            padding: 5px 10px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #c45a32;
+            border-radius: 5px;
+        }
+        .about {
+            padding: 60px 20px;
+            text-align: center;
+            max-width: 1000px;
+            margin: auto;
+            background: #fff8f0;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+        .about h2 {
+            font-size: 2.5em;
+            color: #6d4c41;
+            margin-bottom: 20px;
+        }
+        .about p {
+            font-size: 1.2em;
+            color: #5b5b5b;
+            line-height: 1.6;
+            margin: 15px 0;
+        }
+        .about img {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 15px;
+            margin-top: 30px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .about img:hover {
+            transform: scale(1.05);
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .product {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s;
+            background: #fff;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        .product:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+        }
+        .product img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        }
+        .button {
+            display: inline-block;
+            padding: 12px 20px;
+            background-color: #c45a32;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        .button:hover {
+            background-color: #a94d28;
+            transform: scale(1.05);
+        }
+        .socials {
+            text-align: center;
+            padding: 30px 0;
+        }
+        .socials a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #c45a32;
+            font-size: 1.8em;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #6d4c41;
+            color: white;
+            font-size: 0.9em;
+            margin-top: 30px;
+        }
+        .contact-info {
+            background-color: #f5f5f5;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .contact-info h2 {
+            color: #6d4c41;
+            margin-bottom: 20px;
+        }
+        .contact-info p {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+        .contact-info .button {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Brownie Mix</h1>
+    <p>¡Explora nuestra variedad de brownies y postres irresistibles!</p>
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#about">Sobre Nosotros</a></li>
+            <li><a href="#products">Productos</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="about" class="about">
+    <h2>Sobre Nosotros</h2>
+    <p>En Brownie Mix, creemos en la magia de combinar sabores irresistibles. Nuestros brownies y postres están elaborados con ingredientes de alta calidad para ofrecerte una experiencia única y memorable en cada bocado.</p>
+    <p>Nuestro proyecto nació gracias a las defensas que se iban a dar en el colegio para obtener nuestro título. A lo largo de esta trayectoria y las prácticas, descubrimos nuestra pasión por este emprendimiento y por crear productos únicos. Queremos ofrecer un producto delicioso y de calidad que no solo endulce tus días, sino que también inspire a otros jóvenes a seguir sus pasiones.</p>
+    <img src="foto g.png" alt="Nuestra historia en Brownie Mix">
+</section>
+
+<section id="products" class="container">
+    <div class="product">
+        <h2>Brownie Clásico</h2>
+        <img src="brownie clasico.jpg" alt="Brownie Clásico">
+        <p>Un brownie denso y chocolateado, perfecto para los amantes del chocolate.</p>
+        <p><strong>Presentación:</strong> 1 Porción</p>
+        <p><strong>Precio:</strong> Bs 8.00</p>
+        <a href="https://wa.me/78019422?text=¡Hola! Quiero pedir un Brownie Clásico." class="button" target="_blank">¡Pídelo Ahora!</a>
+    </div>
+    <div class="product">
+        <h2>Brownie con Cheesecake y Frutos Rojos</h2>
+        <img src="brownie frutos rojos.jpg" alt="Brownie con Cheesecake y Frutos Rojos">
+        <p>Deliciosa combinación de brownie con cheesecake y un toque de frutos rojos frescos.</p>
+        <p><strong>Presentación:</strong> 1 Porción</p>
+        <p><strong>Precio:</strong> Bs 6.00</p>
+        <a href="https://wa.me/78019422?text=¡Hola! Quiero pedir un Brownie con Cheesecake y Frutos Rojos." class="button" target="_blank">¡Pídelo Ahora!</a>
+    </div>
+    <div class="product">
+        <h2>Brownie con Relleno de Nido</h2>
+        <img src="brownie con nido.jpg" alt="Brownie con Relleno de Nido">
+        <p>Un brownie irresistible con un suave relleno de crema Nido.</p>
+        <p><strong>Presentación:</strong> 1 Porción</p>
+        <p><strong>Precio:</strong> Bs 5.00</p>
+        <a href="https://wa.me/78019422?text=¡Hola! Quiero pedir un Brownie con Relleno de Nido." class="button" target="_blank">¡Pídelo Ahora!</a>
+    </div>
+    <div class="product">
+        <h2>Brownie con Crema de Oreo</h2>
+        <img src="brownie de oreo.jpg" alt="Brownie con Crema de Oreo">
+        <p>El clásico brownie combinado con la deliciosa crema de Oreo.</p>
+        <p><strong>Presentación:</strong> 1 Porción </p>
+        <p><strong>Precio:</strong> Bs 7.00</p>
+        <a href="https://wa.me/78019422?text=¡Hola! Quiero pedir un Brownie con Crema de Oreo." class="button" target="_blank">¡Pídelo Ahora!</a>
+    </div>
+    <div class="product">
+        <h2>Crumbl Cookies</h2>
+        <img src="crumbl cookies.jpg" alt="Crumbl Cookies">
+        <p>Deliciosas cookies con un suave relleno de crema, ¡perfectas para compartir!</p>
+        <p><strong>Presentación:</strong> Paquete de 3 unidades</p>
+        <p><strong>Precio:</strong> Bs 15.00</p>
+        <a href="https://wa.me/78019422?text=¡Hola! Quiero pedir Cookies de Crumbl." class="button" target="_blank">¡Pídelo Ahora!</a>
+    </div>
+    <div class="product">
+        <h2>Crumbl Cookies Brownie</h2>
+        <img src="brownie y crumbl cookies.jpg" alt="Crumbl Cookies Brownie">
+        <p>Un delicioso brownie con trozos de galletas Crumbl, para los amantes de lo mejor de ambos mundos.</p>
+        <p><strong>Presentación:</strong> 1 Porción</p>
+        <p><strong>Precio:</strong> Bs 10.00</p>
+        <a href="https://wa.me/78019422?text=¡Hola! Quiero pedir un Crumbl Cookies Brownie." class="button" target="_blank">¡Pídelo Ahora!</a>
+    </div>
+</section>
+
+<section id="contact" class="contact-info">
+    <h2>Contáctanos para hacer tu pedido</h2>
+    <p><strong>Ubicación:</strong> 3er anillo externo de Circunvalacion, barrio 4 de noviembre c/5 casa /3185 , Ciudad Santa Cruz de la Sierra</p>
+    <p><strong>Teléfono:</strong> 7801 9422</p>
+    <p><strong>Ciudad:</strong> Santa Cruz de la Sierra, Bolivia</p>
+    <a href="https://wa.me/78019422?text=¡Hola! Quiero realizar un pedido." class="button" target="_blank">Haz tu Pedido</a>
+</section>
+
+<div class="socials">
+    <h2>¡Síguenos en nuestras redes sociales!</h2>
+    <a href="https://www.tiktok.com/@brownie.mix4" target="_blank"><img src="tiktok2.png" alt="TikTok" style="width: 30px;"> TikTok</a>
+    <a href="https://www.facebook.com/Browniemix0606" target="_blank"><img src="Facebook.png" alt="Facebook" style="width: 30px;"> Facebook</a>
+    <a href="https://www.instagram.com/brownie_mix_0" target="_blank"><img src="instagram-logo.png" alt="Instagram" style="width: 30px;"> Instagram</a>
+</div>
+
+<footer>
+    <p>&copy; 2024 Brownie Mix. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
